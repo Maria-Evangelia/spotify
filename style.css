@@ -1,0 +1,228 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+.spotify-logo img {
+  width: 15%;
+}
+
+nav ul {
+  list-style-type: none;
+  position: absolute;
+  top: 0;
+  right: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 30px;
+  font-size: 20px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.music img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.text1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4em;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.text2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.7rem;
+  opacity: 0.8;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.title {
+  font-family: 'Wix Madefor Text', sans-serif;
+  display: inline-block;
+  padding-bottom: 2px;
+  border-bottom: 3.7px solid #00B172;
+
+}
+
+.titl {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 3%;
+  padding-bottom: 5%;
+
+
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+  padding-bottom: 25%;
+
+}
+
+.par {
+ opacity: 0.1 ;
+  font-weight: 20px;
+  font-size: 25px;
+  opacity: 0.6;
+  align-items: center;
+ padding-right: 60px;
+ padding-left: 80px;
+ font-family: Arial, Helvetica, sans-serif
+
+}
+
+.box1 {
+  align-items: center;
+  width: 40em;
+  height: 3em;
+  padding-top: 3%;
+  padding-left: 90px;
+  padding-bottom: 5%;
+  padding-right: 90px;
+  
+}
+
+.box2 {
+
+  align-items: center;
+  width: 40em;
+  height: 3em;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  padding-right: 90px;
+}
+
+
+.box3{
+  width: 40em;
+  height: 3em;
+  align-items: center;
+  padding-top: 3%;
+  padding-right: 90px;
+  padding-bottom: 5%;
+}
+
+.general {
+  align-items: center;
+  font-size: 30px;
+  font-weight: 570px;
+  padding-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #00B172;
+  font-weight: bold;
+  flex-direction: row;
+
+}
+
+.icon {
+  padding-left: 25%;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+
+}
+
+.devices {
+  padding-left: 25%;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.bass {
+  padding-left: 25%;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.container2 {
+  box-sizing: border-box;
+  display: flex;
+  position: absolute;
+  background-image: url(/lab-css-spotify-clone/images/spotify-icon-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150px;
+  background-color: #00B172;
+  width: 94rem;
+  height: 45em;
+  align-items: center;
+
+}
+
+.spotify1 {
+  width: 50em;
+  height: 100%;
+}
+
+.title2 {
+  font-size: 32px;
+  padding-top: 5px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+.details {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  width: 25%;
+}
+
+.personal {
+  color: white;
+  width: 270px;
+  height: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration-skip-ink: none;
+  padding-bottom: 50px;
+}
+
+
+.boxxes1 {
+  padding-top: 5em;
+  height: 110px;
+  width: 30rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  padding-left: 20%;
+  padding-bottom: 50%;
+}
+
+.boxxes2 {
+
+  background-image: url(/lab-css-spotify-clone/images/spotify-app.jpg);
+  background-size: cover;
+  width: 20em;
+  height: 36rem;
+  margin: 10%;
+}
